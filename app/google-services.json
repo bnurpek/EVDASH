@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756402418607",
+    "project_id": "evdas-a9694",
+    "storage_bucket": "evdas-a9694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756402418607:android:03ca15d5c03fc64020355a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756402418607-chdto30gvc8kp43n6j4aocf7jfcfndhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMOuc_QZHIDOUUFlF4MMWcVlblQfi0bRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756402418607-chdto30gvc8kp43n6j4aocf7jfcfndhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tv_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Tam ad"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv_full_name"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/avatar"
+        android:background="@color/white"
+        android:scaleType="centerCrop"/>
+
+    <ImageButton
+        android:id="@+id/ib_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_profile"
+        android:layout_alignTop="@+id/iv_profile"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/send_mail"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/ib_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ib_email"
+        android:layout_toRightOf="@+id/ib_email"
+        android:src="@drawable/get_contact"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv_state_solid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ib_email"
+        android:layout_alignLeft="@+id/ib_email"
+        android:text="@string/state_profile"/>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_state_solid"
+        android:layout_toRightOf="@+id/tv_state_solid"
+        android:text="@string/state_change"/>
+
+    <Button
+        android:id="@+id/send_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_match"
+        android:layout_below="@id/tv_state_solid"
+        android:layout_alignLeft="@+id/ib_email"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/iv_profile"
+        android:layout_marginTop="10dp"
+        android:text="Eğitim Bilgileri"
+        android:ems="8"/>
+
+    <TextView
+        android:id="@+id/tv_lisans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_education"
+        android:layout_alignLeft="@+id/iv_profile"
+        android:layout_marginTop="10dp"
+        android:text="Bölüm - Fakülte"/>
+
+    <TextView
+        android:id="@+id/tv_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lisans"
+        android:layout_alignLeft="@+id/iv_profile"
+        android:layout_marginTop="5dp"
+        android:text="@string/grade_solid"/>
+
+    <TextView
+        android:id="@+id/tv_grade_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_grade"
+        android:layout_toRightOf="@+id/tv_grade"
+        android:text="@string/grade_change"/>
+    
+    <LinearLayout
+        android:id="@+id/state_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@+id/tv_grade"
+        android:layout_alignLeft="@+id/iv_profile"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailed_state"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state_profile"/>
+
+            <TextView
+                android:id="@+id/tv_detailed_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state_change"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_detailed_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Km message: "/>
+
+        <TextView
+            android:id="@+id/tv_detailed_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day message: "/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adres: "/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

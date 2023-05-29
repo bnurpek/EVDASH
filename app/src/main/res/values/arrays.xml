@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_state_array">
+        <item>Aramıyor</item>
+        <item>Kalacak Ev/Oda Arıyor</item>
+        <item>Ev/Oda Arkadaşı Arıyor</item>
+    </string-array>
+
+    <string-array name="class_num_array">
+        <item>Hazırlık</item>
+        <item>1. Sınıf</item>
+        <item>2. Sınıf</item>
+        <item>3. Sınıf</item>
+        <item>4. Sınıf</item>
+        <item>5. Sınıf</item>
+        <item>6. Sınıf</item>
+    </string-array>
+
+    <string-array name="department_name_array">
+        <item>Bilgisayar Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Bilgisayar ve Öğretim Teknolojileri Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Biyomedikal Mühendisliği (İngilizce) - Elektrik-Elektronik Fakültesi</item>
+        <item>Biyomühendislik - Kimya-Metalurji Fakültesi</item>
+        <item>Biyomühendislik (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Çevre Mühendisliği - İnşaat Fakültesi</item>
+        <item>Elektrik Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Elektronik ve Haberleşme Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Endüstri Mühendisliği - Makine Fakültesi</item>
+        <item>Endüstri Mühendisliği (İngilizce) - Makine Fakültesi</item>
+        <item>Fen Bilgisi Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Fizik - Fen-Edebiyat Fakültesi</item>
+        <item>Fotoğraf ve Video - Sanat ve Tasarım Fakültesi</item>
+        <item>Fransızca Mütercim ve Tercümanlık - Fen-Edebiyat Fakültesi</item>
+        <item>Gemi İnşaatı ve Gemi Makineleri Mühendisliği - Gemi İnşaatı ve Denizcilik Fakültesi</item>
+        <item>Gemi Makineleri İşletme Mühendisliği - Gemi İnşaatı ve Denizcilik Fakültesi</item>
+        <item>Gıda Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Harita Mühendisliği - İnşaat Fakültesi</item>
+        <item>İktisat - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İktisat (İngilizce) - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İletişim ve Tasarımı - Sanat ve Tasarım Fakültesi</item>
+        <item>İlköğretim Matematik Öğretmenliği - Eğitim Fakültesi</item>
+        <item>İngilizce Öğretmenliği - Eğitim Fakültesi</item>
+        <item>İnşaat Mühendisliği - İnşaat Fakültesi</item>
+        <item>İnşaat Mühendisliği (İngilizce) - İnşaat Fakültesi</item>
+        <item>İstatistik - Fen-Edebiyat Fakültesi</item>
+        <item>İşletme - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İşletme (İngilizce) - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>Kimya - Fen-Edebiyat Fakültesi</item>
+        <item>Kimya (İngilizce) - Fen-Edebiyat Fakültesi</item>
+        <item>Kimya Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Kimya Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Kontrol ve Otomasyon Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Kontrol ve Otomasyon Mühendisliği (İngilizce) - Elektrik-Elektronik Fakültesi</item>
+        <item>Kültür Varlıklarını Koruma ve Onarım - Mimarlık Fakültesi</item>
+        <item>Makine Mühendisliği - Makine Fakültesi</item>
+        <item>Matematik - Fen-Edebiyat Fakültesi</item>
+        <item>Matematik Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Matematik Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Matematik Mühendisliği (KKTC Uyruklu) - Kimya-Metalurji Fakültesi</item>
+        <item>Mekatronik Mühendisliği - Makine Fakültesi</item>
+        <item>Mekatronik Mühendisliği (İngilizce) - Makine Fakültesi</item>
+        <item>Mekatronik Mühendisliği (İngilizce) (KKTC Uyruklu) - Makine Fakültesi</item>
+        <item>Metalurji ve Malzeme Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Metalurji ve Malzeme Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Mimarlık - Mimarlık Fakültesi</item>
+        <item>Mimarlık (İngilizce) - Mimarlık Fakültesi</item>
+        <item>Moleküler Biyoloji ve Genetik - Fen-Edebiyat Fakültesi</item>
+        <item>Okul Öncesi Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Rehberlik ve Psikolojik Danışmanlık - Eğitim Fakültesi</item>
+        <item>Sanat ve Kültür Yönetimi - Sanat ve Tasarım Fakültesi</item>
+        <item>Sınıf Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Siyaset Bilimi ve Uluslararası İlişkiler - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>Sosyal Bilgiler Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Şehir ve Bölge Planlama - Mimarlık Fakültesi</item>
+        <item>Türk Dili ve Edebiyatı - Fen-Edebiyat Fakültesi</item>
+        <item>Türkçe Öğretmenliği - Eğitim Fakültesi</item>
+    </string-array>
+
+    <string-array name="filter_department">
+        <item>Hiçbiri</item>
+        <item>Bilgisayar Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Bilgisayar ve Öğretim Teknolojileri Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Biyomedikal Mühendisliği (İngilizce) - Elektrik-Elektronik Fakültesi</item>
+        <item>Biyomühendislik - Kimya-Metalurji Fakültesi</item>
+        <item>Biyomühendislik (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Çevre Mühendisliği - İnşaat Fakültesi</item>
+        <item>Elektrik Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Elektronik ve Haberleşme Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Endüstri Mühendisliği - Makine Fakültesi</item>
+        <item>Endüstri Mühendisliği (İngilizce) - Makine Fakültesi</item>
+        <item>Fen Bilgisi Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Fizik - Fen-Edebiyat Fakültesi</item>
+        <item>Fotoğraf ve Video - Sanat ve Tasarım Fakültesi</item>
+        <item>Fransızca Mütercim ve Tercümanlık - Fen-Edebiyat Fakültesi</item>
+        <item>Gemi İnşaatı ve Gemi Makineleri Mühendisliği - Gemi İnşaatı ve Denizcilik Fakültesi</item>
+        <item>Gemi Makineleri İşletme Mühendisliği - Gemi İnşaatı ve Denizcilik Fakültesi</item>
+        <item>Gıda Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Harita Mühendisliği - İnşaat Fakültesi</item>
+        <item>İktisat - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İktisat (İngilizce) - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İletişim ve Tasarımı - Sanat ve Tasarım Fakültesi</item>
+        <item>İlköğretim Matematik Öğretmenliği - Eğitim Fakültesi</item>
+        <item>İngilizce Öğretmenliği - Eğitim Fakültesi</item>
+        <item>İnşaat Mühendisliği - İnşaat Fakültesi</item>
+        <item>İnşaat Mühendisliği (İngilizce) - İnşaat Fakültesi</item>
+        <item>İstatistik - Fen-Edebiyat Fakültesi</item>
+        <item>İşletme - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>İşletme (İngilizce) - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>Kimya - Fen-Edebiyat Fakültesi</item>
+        <item>Kimya (İngilizce) - Fen-Edebiyat Fakültesi</item>
+        <item>Kimya Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Kimya Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Kontrol ve Otomasyon Mühendisliği - Elektrik-Elektronik Fakültesi</item>
+        <item>Kontrol ve Otomasyon Mühendisliği (İngilizce) - Elektrik-Elektronik Fakültesi</item>
+        <item>Kültür Varlıklarını Koruma ve Onarım - Mimarlık Fakültesi</item>
+        <item>Makine Mühendisliği - Makine Fakültesi</item>
+        <item>Matematik - Fen-Edebiyat Fakültesi</item>
+        <item>Matematik Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Matematik Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Matematik Mühendisliği (KKTC Uyruklu) - Kimya-Metalurji Fakültesi</item>
+        <item>Mekatronik Mühendisliği - Makine Fakültesi</item>
+        <item>Mekatronik Mühendisliği (İngilizce) - Makine Fakültesi</item>
+        <item>Mekatronik Mühendisliği (İngilizce) (KKTC Uyruklu) - Makine Fakültesi</item>
+        <item>Metalurji ve Malzeme Mühendisliği - Kimya-Metalurji Fakültesi</item>
+        <item>Metalurji ve Malzeme Mühendisliği (İngilizce) - Kimya-Metalurji Fakültesi</item>
+        <item>Mimarlık - Mimarlık Fakültesi</item>
+        <item>Mimarlık (İngilizce) - Mimarlık Fakültesi</item>
+        <item>Moleküler Biyoloji ve Genetik - Fen-Edebiyat Fakültesi</item>
+        <item>Okul Öncesi Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Rehberlik ve Psikolojik Danışmanlık - Eğitim Fakültesi</item>
+        <item>Sanat ve Kültür Yönetimi - Sanat ve Tasarım Fakültesi</item>
+        <item>Sınıf Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Siyaset Bilimi ve Uluslararası İlişkiler - İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>Sosyal Bilgiler Öğretmenliği - Eğitim Fakültesi</item>
+        <item>Şehir ve Bölge Planlama - Mimarlık Fakültesi</item>
+        <item>Türk Dili ve Edebiyatı - Fen-Edebiyat Fakültesi</item>
+        <item>Türkçe Öğretmenliği - Eğitim Fakültesi</item>
+    </string-array>
+
+</resources>

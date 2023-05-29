@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/et_full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:text="Tam ad"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/et_full_name"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/avatar"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+        android:id="@+id/ib_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/from_gallery"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/iv_profile"
+        android:layout_alignRight="@+id/iv_profile"
+        android:layout_marginRight="-25dp"
+        android:layout_marginTop="3dp" />
+
+        <ImageButton
+            android:id="@+id/ib_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/from_camera"
+            android:background="@color/white"
+            android:layout_alignTop="@+id/iv_profile"
+            android:layout_alignRight="@+id/iv_profile"
+            android:layout_marginRight="-25dp"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iv_profile"
+            android:layout_alignTop="@+id/iv_profile"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="75dp"
+            android:hint="@string/mail"
+            android:textSize="17sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_mail"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/tv_email"
+            android:layout_toEndOf="@+id/tv_email" />
+
+        <EditText
+            android:id="@+id/et_tel"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_email"
+            android:layout_alignLeft="@+id/tv_email"
+            android:layout_marginTop="10dp"
+            android:hint="@string/phone"
+            android:inputType="phone"/>
+
+        <CheckBox
+            android:id="@+id/cb_tel"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/cb_mail"
+            android:layout_alignRight="@+id/cb_mail"
+            android:layout_marginTop="19dp"/>
+
+        <TextView
+            android:id="@+id/tv_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/department"
+            android:layout_below="@+id/iv_profile"
+            android:layout_alignLeft="@+id/iv_profile"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_dep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_department"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/tv_department"
+            android:layout_marginTop="3dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+        <TextView
+            android:id="@+id/tv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edu_information"
+            android:layout_below="@+id/spinner_dep"
+            android:layout_alignLeft="@+id/spinner_dep"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_grade"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_grade"
+            android:layout_alignLeft="@+id/tv_grade"
+            android:layout_marginTop="3dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/state"
+            android:layout_below="@+id/spinner_grade"
+            android:layout_alignLeft="@+id/spinner_grade"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_state"
+            android:layout_alignLeft="@+id/tv_state"
+            android:layout_marginTop="3dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+        <TextView
+            android:id="@+id/tv_kpg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_state"
+            android:layout_toStartOf="@+id/question_mark"
+            android:layout_marginRight="5dp"
+            android:text="@string/kal_pay_g"/>
+
+        <TextView
+            android:id="@+id/question_mark"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignTop="@+id/tv_state"
+            android:layout_alignEnd="@+id/cb_mail"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/shape_circular"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/question_mark"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="00"
+            android:textAlignment="textEnd"
+            android:layout_below="@+id/tv_state"
+            android:layout_alignEnd="@+id/question_mark"
+            android:ems="3"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/et_kmeters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_state"
+            android:layout_alignLeft="@+id/iv_profile"
+            android:layout_marginTop="10dp"
+            android:hint="@string/et_km"
+            android:inputType="number"
+            android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_kmeters"
+            android:layout_alignLeft="@+id/iv_profile"
+            android:layout_marginTop="10dp"
+            android:hint="Adres Eklemek İçin Tıkla"
+            android:enabled="false"
+            android:editable="false"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:ems="8"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btn_delete_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:ems="8"
+            android:text="@string/delete_account" />
+
+    </RelativeLayout>
+</FrameLayout>

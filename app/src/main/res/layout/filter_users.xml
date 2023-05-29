@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Mesafe (km)"/>
+
+    <EditText
+        android:id="@+id/et_km_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_km"
+        android:hint="Min"
+        android:inputType="number"
+        android:ems="3"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_km"
+        android:layout_toEndOf="@+id/et_km_min"
+        android:layout_marginLeft="10dp"
+        android:textSize="30sp"
+        android:text="-"/>
+
+    <EditText
+        android:id="@+id/et_km_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_km"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:hint="Max"
+        android:inputType="number"
+        android:ems="3"/>
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_km_max"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Gün"/>
+
+    <EditText
+        android:id="@+id/et_day_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_day"
+        android:hint="Min"
+        android:inputType="number"
+        android:ems="3"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_day"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/et_day_min"
+        android:textSize="30sp"
+        android:text="-"/>
+
+    <EditText
+        android:id="@+id/et_day_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_day"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:hint="Max"
+        android:inputType="number"
+        android:ems="3"/>
+
+    <TextView
+        android:id="@+id/tv_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/department_2"
+        android:layout_below="@+id/et_day_max"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner_dep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_department"
+        android:layout_below="@+id/tv_department"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="3dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+</RelativeLayout>
